@@ -25,15 +25,15 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: content/contact
-  label: Contact
-  create: none
-  match: "*"
-- type: directory
   path: content
   label: All Pages
   create: all
   match: "**/*"
+- type: directory
+  path: content/contact
+  label: Contact
+  create: none
+  match: "*"
 - type: heading
   label: Configuration
 - type: document
